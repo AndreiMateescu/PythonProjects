@@ -4,6 +4,7 @@ class Joc(object):
 
         self.matrice =  [[False] * (10) for lines in range(10)]   # o matrice de 10 pe 10 initializzata cu False reprezentand matricea jocului
         self.orizontal = 0  # o variabila in care se retine unde se afla linia orizontala
+        self.vertical = 0   # o variabila in care se retine unde se afla linia verticala
         self.principal()    # se apeleaza functia principal a clasei Joc
 
     def checkColt (self):  # Functia checkColt care verifica in care dintre cele 4 colturi se gaseste partea cu b
